@@ -1,12 +1,12 @@
 const ProjectsCard = ({ year, title, description, skills, imageUrl, url }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <div className="mb-12 p-4 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer group flex items-start">
+      <div className="mb-12 p-4 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer group flex flex-col md:flex-row items-start">
         {/* Image Section */}
         <img
           src={imageUrl}
           alt={title}
-          className="w-32 h-24 rounded-lg object-contain mr-4"
+          className="w-full md:w-32 h-48 md:h-24 rounded-lg object-contain mb-4 md:mb-0 md:mr-4"
         />
 
         {/* Text Content Section */}
@@ -15,7 +15,7 @@ const ProjectsCard = ({ year, title, description, skills, imageUrl, url }) => {
           <h3 className="text-xl font-bold mt-1 text-gray-300 group-hover:text-cyan-400">
             {title}
           </h3>
-          <p className="mt-2 text-gray-400 ">{description}</p>
+          <p className="mt-2 text-gray-400">{description}</p>
           <div className="flex flex-wrap gap-2 mt-3">
             {skills.map((skill, idx) => (
               <span

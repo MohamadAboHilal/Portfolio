@@ -1,6 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="mb-5">
+      <h2 className="text-2xl font-semibold mb-6 text-gray-300">About</h2>
       <p className="text-base md:text-lg font-light leading-relaxed tracking-normal text-gray-400">
         I am a passionate Software Development Engineer with three years of
         apprenticeship experience in building innovative software solutions at{" "}
