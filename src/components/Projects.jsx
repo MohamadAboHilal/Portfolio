@@ -1,5 +1,6 @@
 import ProjectsCard from "./ProjectsCard";
 import TheraSyncImage from "../assets/TheraSync.png";
+import LofiImage from "../assets/Lofi.png";
 
 const projects = [
   {
@@ -18,6 +19,14 @@ const projects = [
     ],
     imageUrl: TheraSyncImage,
     url: "https://therasync.onrender.com/",
+  },
+  {
+    title: "Lo-Fi Radio",
+    description:
+      "Lo-Fi Radio is a fullstack music streaming application where users can stream handpicked lo-fi tracks, create a personal favorites library, and enjoy a smooth, modern audio player experience. The app offers real-time favorites management, user authentication, polished animations, and responsive design for mobile and desktop.",
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT"],
+    imageUrl: LofiImage,
+    url: "https://lofiradio-wheat.vercel.app/",
   },
 ];
 
