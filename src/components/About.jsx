@@ -27,13 +27,11 @@ const About = () => {
         user-centric applications.
         <br />
         <br />
-        Originally from Syria, I have been living in Berlin, Germany, for nearly
-        six years. I am fluent in German, English, and Arabic, my mother tongue.
-        Beyond coding, my passion lies in gaming, puzzles, and anything that
-        challenges the mind and stimulates critical thinking. I am eager to
-        contribute to impactful projects that leverage cutting-edge technologies
-        like AI and cloud computing, driving growth and innovation in the tech
-        industry.
+        I am fluent in German, English, and Arabic, my mother tongue. Beyond
+        coding, my passion lies in gaming, puzzles, and anything that challenges
+        the mind and stimulates critical thinking. I am eager to contribute to
+        impactful projects that leverage cutting-edge technologies like AI and
+        cloud computing, driving growth and innovation in the tech industry.
         <br />
         <br />
       </p>
