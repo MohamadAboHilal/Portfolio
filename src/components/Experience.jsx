@@ -2,6 +2,31 @@ import SectionCard from "./SectionCard";
 
 const experiences = [
   {
+    year: "2025 — current",
+    title: "Full-Stack Software Developer",
+    company: "Freelance",
+    description:
+      "Development and implementation of complete web applications for clients, including frontend development with React, Vue.js and Tailwind CSS, as well as backend development with Node.js, Express, and MongoDB. Responsibilities included designing and integrating REST APIs, user authentication, and data persistence. Close collaboration with clients involved requirements analysis, technical consulting, and on-time project delivery. Gained experience in deployment, version control (Git), and agile working methodologies.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Vue.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SQL",
+      "PostgreSQL",
+      "Vue.js",
+      "REST APIs",
+      "User Authentication",
+      "Agile Methodologies",
+    ],
+    url: "",
+  },
+  {
     year: "2021 — 2024",
     title: "Software Developer (Apprenticeship)",
     company: "Viamedici",

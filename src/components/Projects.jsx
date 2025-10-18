@@ -1,8 +1,26 @@
 import ProjectsCard from "./ProjectsCard";
 import TheraSyncImage from "../assets/TheraSync.png";
 import LofiImage from "../assets/Lofi.png";
+import Blanco from "../assets/blanco_showcase.png";
 
 const projects = [
+  {
+    title: "Blanco One",
+    description:
+      "Development of a modern, dynamic, and customizable web application for a cleaning company to showcase its services and corporate identity.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Agile Methodologies",
+      "UI/UX Design",
+      "i18n",
+      "Localization",
+    ],
+    imageUrl: Blanco,
+    url: "https://blancoone.com/",
+  },
   {
     title: "TheraSync",
     description:
