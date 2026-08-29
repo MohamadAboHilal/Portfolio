@@ -2,8 +2,24 @@ import ProjectsCard from "./ProjectsCard";
 import TheraSyncImage from "../assets/TheraSync.png";
 import LofiImage from "../assets/Lofi.png";
 import Blanco from "../assets/blanco_showcase.png";
+import AbdeenLegalImage from "../assets/abdeen_legal.png";
 
 const projects = [
+  {
+    title: "Abdeen Legal",
+    description:
+      "A modern, responsive service platform for a Syrian law firm, featuring a customizable Vue.js interface, an Express and MongoDB backend, and interactive Leaflet maps for location and service-area visualization.",
+    skills: [
+      "Vue.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Leaflet",
+      "Responsive Design",
+    ],
+    imageUrl: AbdeenLegalImage,
+    url: "https://abdeenlegal.com/",
+  },
   {
     title: "Blanco One",
     description:
