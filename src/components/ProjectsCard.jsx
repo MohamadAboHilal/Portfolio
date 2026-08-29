@@ -1,4 +1,6 @@
-const ProjectsCard = ({ year, title, description, skills, imageUrl, url }) => {
+import { FiArrowUpRight } from "react-icons/fi";
+
+const ProjectsCard = ({ title, description, skills, imageUrl, url }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <div className="mb-12 p-4 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer group flex flex-col md:flex-row items-start">
@@ -11,9 +13,8 @@ const ProjectsCard = ({ year, title, description, skills, imageUrl, url }) => {
 
         {/* Text Content Section */}
         <div>
-          <p className="text-sm text-gray-400">{year}</p>
-          <h3 className="text-xl font-bold mt-1 text-gray-300 group-hover:text-cyan-400">
-            {title}
+          <h3 className="text-xl font-bold mt-1 text-gray-300 group-hover:text-cyan-400 flex items-center gap-2">
+            {title} <FiArrowUpRight aria-hidden="true" className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
           </h3>
           <p className="mt-2 text-gray-400">{description}</p>
           <div className="flex flex-wrap gap-2 mt-3">

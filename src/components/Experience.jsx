@@ -2,8 +2,8 @@ import SectionCard from "./SectionCard";
 
 const experiences = [
   {
-    year: "2025 — current",
-    title: "Full-Stack Software Developer",
+    year: "Jan 2025 — Present",
+    title: "Freelance Full-Stack Developer",
     company: "Freelance",
     description:
       "Development and implementation of complete web applications for clients, including frontend development with React, Vue.js and Tailwind CSS, as well as backend development with Node.js, Express, and MongoDB. Responsibilities included designing and integrating REST APIs, user authentication, and data persistence. Close collaboration with clients involved requirements analysis, technical consulting, and on-time project delivery. Gained experience in deployment, version control (Git), and agile working methodologies.",
@@ -17,9 +17,7 @@ const experiences = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "SQL",
       "PostgreSQL",
-      "Vue.js",
       "REST APIs",
       "User Authentication",
       "Agile Methodologies",
@@ -27,17 +25,15 @@ const experiences = [
     url: "",
   },
   {
-    year: "2021 — 2024",
-    title: "Software Developer (Apprenticeship)",
+    year: "Nov 2021 — Aug 2024",
+    title: "Junior Software Developer (Apprenticeship)",
     company: "Viamedici",
     description:
-      "Developed and maintained full-stack solutions using Java, SpringBoot, Python-Flask, and frontend technologies. Built efficient data interfaces with SQL, XML, and XSLT, contributed to Azure Cloud migrations, and supported project management with JIRA and Confluence. Completed 2000+ hours of training in coding and software development.",
+      "Developed and maintained enterprise system interfaces using Java, SQL, XML, and XSLT. Implemented SQL queries to monitor and improve large customer datasets, contributed to Microsoft Azure cloud migration initiatives, and collaborated in Agile teams using Jira and Confluence.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
-      "SpringBoot",
-      "Python-Flask",
       "Java",
       "SQL",
       "Azure Cloud",
@@ -52,8 +48,8 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience">
-      <h2 className="text-2xl font-semibold mb-6 text-gray-300">Experience</h2>
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading" className="text-2xl font-semibold mb-6 text-gray-300">Experience</h2>
       {experiences.map((exp, idx) => (
         <SectionCard
           key={idx}

@@ -50,8 +50,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="experience">
-      <h2 className="text-2xl font-semibold mb-6 text-gray-300">Projects</h2>
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading" className="text-2xl font-semibold mb-6 text-gray-300">Selected Projects</h2>
       {projects.map((exp, idx) => (
         <ProjectsCard
           key={idx}
